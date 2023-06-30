@@ -1,0 +1,37 @@
+INFO - 2023-06-24 04:10:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:10:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:10:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:10:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:10:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:10:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:11:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:21:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:21:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-24 04:21:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-24 04:21:46 --> mysqli_sql_exception: Unknown column 'B_DATE' in 'field list' in C:\xampp\htdocs\Booking_Meeting\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Booking_Meeting\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `BO...', 0)
+#1 C:\xampp\htdocs\Booking_Meeting\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `BO...')
+#2 C:\xampp\htdocs\Booking_Meeting\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `BO...')
+#3 C:\xampp\htdocs\Booking_Meeting\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `BO...', Array, false)
+#4 C:\xampp\htdocs\Booking_Meeting\app\Models\BookingModel.php(36): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\Booking_Meeting\app\Controllers\Booking.php(43): App\Models\BookingModel->create_booking(Array)
+#6 C:\xampp\htdocs\Booking_Meeting\system\CodeIgniter.php(934): App\Controllers\Booking->create_booking()
+#7 C:\xampp\htdocs\Booking_Meeting\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#8 C:\xampp\htdocs\Booking_Meeting\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Booking_Meeting\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-06-24 04:21:46 --> Unknown column 'B_DATE' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `BOOKING` (`B_DATE`, `B_TIME`, `B_ROOM_ID`, `B_USER_ID`, `B_CHAIR`, `REMARKS`, `STATUS`, `CREATE_AT`, `CREATE_BY`, `IS_ACTIVE`) VALUES (\'2023-06-26\', \'FULLDATE\', \'3\', \'16\', \'14\', \'รีิัแปุีั\', \'WAITING\', \'2023-06-24 04:21:46\', \'16\', 1)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `BOOKING` (`B_DATE`, `B_TIME`, `B_ROOM_ID`, `B_USER_ID`, `B_CHAIR`, `REMARKS`, `STATUS`, `CREATE_AT`, `CREATE_BY`, `IS_ACTIVE`) VALUES (\'2023-06-26\', \'FULLDATE\', \'3\', \'16\', \'14\', \'รีิัแปุีั\', \'WAITING\', \'2023-06-24 04:21:46\', \'16\', 1)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `BOOKING` (`B_DATE`, `B_TIME`, `B_ROOM_ID`, `B_USER_ID`, `B_CHAIR`, `REMARKS`, `STATUS`, `CREATE_AT`, `CREATE_BY`, `IS_ACTIVE`) VALUES (\'2023-06-26\', \'FULLDATE\', \'3\', \'16\', \'14\', \'รีิัแปุีั\', \'WAITING\', \'2023-06-24 04:21:46\', \'16\', 1)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `BOOKING` (`B_DATE`, `B_TIME`, `B_ROOM_ID`, `B_USER_ID`, `B_CHAIR`, `REMARKS`, `STATUS`, `CREATE_AT`, `CREATE_BY`, `IS_ACTIVE`) VALUES (:B_DATE:, :B_TIME:, :B_ROOM_ID:, :B_USER_ID:, :B_CHAIR:, :REMARKS:, :STATUS:, :CREATE_AT:, :CREATE_BY:, :IS_ACTIVE:)', [...], false)
+ 5 APPPATH\Models\BookingModel.php(36): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\Booking.php(43): App\Models\BookingModel->create_booking([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Booking->create_booking()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

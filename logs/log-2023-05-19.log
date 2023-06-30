@@ -1,0 +1,25 @@
+CRITICAL - 2023-05-19 14:41:33 --> require(components/navbar.php): Failed to open stream: No such file or directory
+in APPPATH\Views\user\edit.php on line 6.
+ 1 APPPATH\Views\user\edit.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(components/navbar.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\BookingMeeting\\app\\Views\\user\\edit.php', 6)
+ 2 APPPATH\Views\user\edit.php(6): require()
+ 3 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\BookingMeeting\\app\\Views\\user\\edit.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('user/edit', [], true)
+ 6 APPPATH\Controllers\user.php(14): view('user/edit')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\user->edit()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\BookingMeeting\\public\\index.php')
+CRITICAL - 2023-05-19 14:42:20 --> Undefined variable $Q_Picture
+in APPPATH\Views\user\edit.php on line 11.
+ 1 APPPATH\Views\user\edit.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Q_Picture', 'C:\\xampp\\htdocs\\BookingMeeting\\app\\Views\\user\\edit.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\BookingMeeting\\app\\Views\\user\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('user/edit', [], true)
+ 5 APPPATH\Controllers\user.php(14): view('user/edit')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\user->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\user))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\BookingMeeting\\public\\index.php')

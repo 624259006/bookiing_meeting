@@ -1,0 +1,286 @@
+INFO - 2023-05-29 18:50:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-29 18:51:13 --> Invalid file: "home/detail_meeting_room.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/detail_meeting_room.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/detail_meeting_room', [], true)
+ 3 APPPATH\Controllers\login.php(107): view('home/detail_meeting_room')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\login->detail_meeting_room()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\BookingMeeting\\public\\index.php')
+CRITICAL - 2023-05-29 18:52:13 --> Undefined variable $data_sending
+in APPPATH\Controllers\login.php on line 107.
+ 1 APPPATH\Controllers\login.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_sending', 'C:\\xampp\\htdocs\\BookingMeeting\\app\\Controllers\\login.php', 107)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\login->detail_meeting_room()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\BookingMeeting\\public\\index.php')
+CRITICAL - 2023-05-29 18:52:14 --> Undefined variable $data_sending
+in APPPATH\Controllers\login.php on line 107.
+ 1 APPPATH\Controllers\login.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_sending', 'C:\\xampp\\htdocs\\BookingMeeting\\app\\Controllers\\login.php', 107)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\login->detail_meeting_room()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\BookingMeeting\\public\\index.php')
+CRITICAL - 2023-05-29 18:52:14 --> Undefined variable $data_sending
+in APPPATH\Controllers\login.php on line 107.
+ 1 APPPATH\Controllers\login.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_sending', 'C:\\xampp\\htdocs\\BookingMeeting\\app\\Controllers\\login.php', 107)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\login->detail_meeting_room()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\BookingMeeting\\public\\index.php')
+CRITICAL - 2023-05-29 18:52:14 --> Undefined variable $data_sending
+in APPPATH\Controllers\login.php on line 107.
+ 1 APPPATH\Controllers\login.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_sending', 'C:\\xampp\\htdocs\\BookingMeeting\\app\\Controllers\\login.php', 107)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\login->detail_meeting_room()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\BookingMeeting\\public\\index.php')
+CRITICAL - 2023-05-29 18:52:14 --> Undefined variable $data_sending
+in APPPATH\Controllers\login.php on line 107.
+ 1 APPPATH\Controllers\login.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_sending', 'C:\\xampp\\htdocs\\BookingMeeting\\app\\Controllers\\login.php', 107)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\login->detail_meeting_room()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\BookingMeeting\\public\\index.php')
+CRITICAL - 2023-05-29 18:52:14 --> Undefined variable $data_sending
+in APPPATH\Controllers\login.php on line 107.
+ 1 APPPATH\Controllers\login.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_sending', 'C:\\xampp\\htdocs\\BookingMeeting\\app\\Controllers\\login.php', 107)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\login->detail_meeting_room()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\BookingMeeting\\public\\index.php')
+CRITICAL - 2023-05-29 18:52:15 --> Undefined variable $data_sending
+in APPPATH\Controllers\login.php on line 107.
+ 1 APPPATH\Controllers\login.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data_sending', 'C:\\xampp\\htdocs\\BookingMeeting\\app\\Controllers\\login.php', 107)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\login->detail_meeting_room()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\BookingMeeting\\public\\index.php')
+CRITICAL - 2023-05-29 18:52:24 --> Invalid file: "home/detail_meeting_room.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/detail_meeting_room.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/detail_meeting_room', [], true)
+ 3 APPPATH\Controllers\login.php(107): view('home/detail_meeting_room')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\login->detail_meeting_room()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\BookingMeeting\\public\\index.php')
+CRITICAL - 2023-05-29 18:54:16 --> Invalid file: "home/detail_meeting_room.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/detail_meeting_room.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/detail_meeting_room', [], true)
+ 3 APPPATH\Controllers\login.php(107): view('home/detail_meeting_room')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\login->detail_meeting_room()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\BookingMeeting\\public\\index.php')
+CRITICAL - 2023-05-29 18:58:35 --> Invalid file: "home/detail_meeting_room.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/detail_meeting_room.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/detail_meeting_room', [], true)
+ 3 APPPATH\Controllers\login.php(107): view('home/detail_meeting_room')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\login->detail_meeting_room()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\BookingMeeting\\public\\index.php')
+CRITICAL - 2023-05-29 18:58:35 --> Invalid file: "home/detail_meeting_room.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/detail_meeting_room.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home/detail_meeting_room', [], true)
+ 3 APPPATH\Controllers\login.php(107): view('home/detail_meeting_room')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\login->detail_meeting_room()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\BookingMeeting\\public\\index.php')
+INFO - 2023-05-29 18:59:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-29 19:00:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-29 19:16:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-29 19:19:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-29 19:25:09 --> Undefined variable $all_rooms
+in APPPATH\Views\rooms\detail_meeting_room.php on line 17.
+ 1 APPPATH\Views\rooms\detail_meeting_room.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $all_rooms', 'C:\\xampp\\htdocs\\BookingMeeting\\app\\Views\\rooms\\detail_meeting_room.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\BookingMeeting\\app\\Views\\rooms\\detail_meeting_room.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('rooms/detail_meeting_room', [], true)
+ 5 APPPATH\Controllers\rooms.php(29): view('rooms/detail_meeting_room')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\rooms->detail_meeting_room()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\rooms))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\BookingMeeting\\public\\index.php')
+CRITICAL - 2023-05-29 19:25:09 --> Undefined variable $all_rooms
+in APPPATH\Views\rooms\detail_meeting_room.php on line 17.
+ 1 APPPATH\Views\rooms\detail_meeting_room.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $all_rooms', 'C:\\xampp\\htdocs\\BookingMeeting\\app\\Views\\rooms\\detail_meeting_room.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\BookingMeeting\\app\\Views\\rooms\\detail_meeting_room.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('rooms/detail_meeting_room', [], true)
+ 5 APPPATH\Controllers\rooms.php(29): view('rooms/detail_meeting_room')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\rooms->detail_meeting_room()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\rooms))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\BookingMeeting\\public\\index.php')
+CRITICAL - 2023-05-29 19:25:37 --> Undefined variable $all_rooms
+in APPPATH\Views\rooms\detail_meeting_room.php on line 10.
+ 1 APPPATH\Views\rooms\detail_meeting_room.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $all_rooms', 'C:\\xampp\\htdocs\\BookingMeeting\\app\\Views\\rooms\\detail_meeting_room.php', 10)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\BookingMeeting\\app\\Views\\rooms\\detail_meeting_room.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('rooms/detail_meeting_room', [], true)
+ 5 APPPATH\Controllers\rooms.php(29): view('rooms/detail_meeting_room')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\rooms->detail_meeting_room()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\rooms))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\BookingMeeting\\public\\index.php')
+CRITICAL - 2023-05-29 19:26:02 --> Unmatched '}'
+in APPPATH\Views\rooms\detail_meeting_room.php on line 40.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('rooms/detail_meeting_room', [], true)
+ 3 APPPATH\Controllers\rooms.php(29): view('rooms/detail_meeting_room')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\rooms->detail_meeting_room()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\rooms))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\BookingMeeting\\public\\index.php')
+CRITICAL - 2023-05-29 19:26:56 --> Undefined variable $val
+in APPPATH\Views\rooms\detail_meeting_room.php on line 9.
+ 1 APPPATH\Views\rooms\detail_meeting_room.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $val', 'C:\\xampp\\htdocs\\BookingMeeting\\app\\Views\\rooms\\detail_meeting_room.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\BookingMeeting\\app\\Views\\rooms\\detail_meeting_room.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('rooms/detail_meeting_room', [], true)
+ 5 APPPATH\Controllers\rooms.php(29): view('rooms/detail_meeting_room')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\rooms->detail_meeting_room()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\rooms))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\BookingMeeting\\public\\index.php')
+CRITICAL - 2023-05-29 19:26:57 --> Undefined variable $val
+in APPPATH\Views\rooms\detail_meeting_room.php on line 9.
+ 1 APPPATH\Views\rooms\detail_meeting_room.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $val', 'C:\\xampp\\htdocs\\BookingMeeting\\app\\Views\\rooms\\detail_meeting_room.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\BookingMeeting\\app\\Views\\rooms\\detail_meeting_room.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('rooms/detail_meeting_room', [], true)
+ 5 APPPATH\Controllers\rooms.php(29): view('rooms/detail_meeting_room')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\rooms->detail_meeting_room()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\rooms))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\BookingMeeting\\public\\index.php')
+CRITICAL - 2023-05-29 19:26:57 --> Undefined variable $val
+in APPPATH\Views\rooms\detail_meeting_room.php on line 9.
+ 1 APPPATH\Views\rooms\detail_meeting_room.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $val', 'C:\\xampp\\htdocs\\BookingMeeting\\app\\Views\\rooms\\detail_meeting_room.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\BookingMeeting\\app\\Views\\rooms\\detail_meeting_room.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('rooms/detail_meeting_room', [], true)
+ 5 APPPATH\Controllers\rooms.php(29): view('rooms/detail_meeting_room')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\rooms->detail_meeting_room()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\rooms))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\BookingMeeting\\public\\index.php')
+CRITICAL - 2023-05-29 19:26:58 --> Undefined variable $val
+in APPPATH\Views\rooms\detail_meeting_room.php on line 9.
+ 1 APPPATH\Views\rooms\detail_meeting_room.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $val', 'C:\\xampp\\htdocs\\BookingMeeting\\app\\Views\\rooms\\detail_meeting_room.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\BookingMeeting\\app\\Views\\rooms\\detail_meeting_room.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('rooms/detail_meeting_room', [], true)
+ 5 APPPATH\Controllers\rooms.php(29): view('rooms/detail_meeting_room')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\rooms->detail_meeting_room()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\rooms))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\BookingMeeting\\public\\index.php')
+CRITICAL - 2023-05-29 19:26:58 --> Undefined variable $val
+in APPPATH\Views\rooms\detail_meeting_room.php on line 9.
+ 1 APPPATH\Views\rooms\detail_meeting_room.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $val', 'C:\\xampp\\htdocs\\BookingMeeting\\app\\Views\\rooms\\detail_meeting_room.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\BookingMeeting\\app\\Views\\rooms\\detail_meeting_room.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('rooms/detail_meeting_room', [], true)
+ 5 APPPATH\Controllers\rooms.php(29): view('rooms/detail_meeting_room')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\rooms->detail_meeting_room()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\rooms))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\BookingMeeting\\public\\index.php')
+CRITICAL - 2023-05-29 19:26:58 --> Undefined variable $val
+in APPPATH\Views\rooms\detail_meeting_room.php on line 9.
+ 1 APPPATH\Views\rooms\detail_meeting_room.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $val', 'C:\\xampp\\htdocs\\BookingMeeting\\app\\Views\\rooms\\detail_meeting_room.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\BookingMeeting\\app\\Views\\rooms\\detail_meeting_room.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('rooms/detail_meeting_room', [], true)
+ 5 APPPATH\Controllers\rooms.php(29): view('rooms/detail_meeting_room')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\rooms->detail_meeting_room()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\rooms))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\BookingMeeting\\public\\index.php')
+CRITICAL - 2023-05-29 19:27:23 --> Undefined variable $val
+in APPPATH\Views\rooms\detail_meeting_room.php on line 9.
+ 1 APPPATH\Views\rooms\detail_meeting_room.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $val', 'C:\\xampp\\htdocs\\BookingMeeting\\app\\Views\\rooms\\detail_meeting_room.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\BookingMeeting\\app\\Views\\rooms\\detail_meeting_room.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('rooms/detail_meeting_room', [], true)
+ 5 APPPATH\Controllers\rooms.php(29): view('rooms/detail_meeting_room')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\rooms->detail_meeting_room()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\rooms))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\BookingMeeting\\public\\index.php')
+CRITICAL - 2023-05-29 19:27:33 --> Undefined variable $val
+in APPPATH\Views\rooms\detail_meeting_room.php on line 21.
+ 1 APPPATH\Views\rooms\detail_meeting_room.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $val', 'C:\\xampp\\htdocs\\BookingMeeting\\app\\Views\\rooms\\detail_meeting_room.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\BookingMeeting\\app\\Views\\rooms\\detail_meeting_room.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('rooms/detail_meeting_room', [], true)
+ 5 APPPATH\Controllers\rooms.php(29): view('rooms/detail_meeting_room')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\rooms->detail_meeting_room()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\rooms))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\BookingMeeting\\public\\index.php')
+CRITICAL - 2023-05-29 19:27:46 --> Undefined variable $key
+in APPPATH\Views\rooms\detail_meeting_room.php on line 19.
+ 1 APPPATH\Views\rooms\detail_meeting_room.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $key', 'C:\\xampp\\htdocs\\BookingMeeting\\app\\Views\\rooms\\detail_meeting_room.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\BookingMeeting\\app\\Views\\rooms\\detail_meeting_room.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('rooms/detail_meeting_room', [], true)
+ 5 APPPATH\Controllers\rooms.php(29): view('rooms/detail_meeting_room')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\rooms->detail_meeting_room()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\rooms))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\BookingMeeting\\public\\index.php')
+INFO - 2023-05-29 19:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-29 19:38:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-29 19:38:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-29 19:51:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-29 19:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-29 19:53:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-29 19:54:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-29 19:54:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-29 19:54:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-29 19:54:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-29 19:55:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-29 19:55:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-29 19:55:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-29 19:56:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-29 19:56:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-29 19:56:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-29 19:56:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-29 19:56:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-29 19:56:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-29 19:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-29 19:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

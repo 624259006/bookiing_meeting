@@ -1,0 +1,1199 @@
+INFO - 2023-06-29 04:23:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 04:23:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 04:23:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 04:23:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 04:23:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 04:24:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 04:24:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 04:24:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 04:24:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 04:24:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 04:24:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 04:24:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 04:25:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 04:25:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 04:25:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 04:25:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 04:25:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 04:25:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 04:26:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 04:26:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 04:26:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 04:26:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 04:26:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 04:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 04:26:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 04:26:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 04:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 04:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 04:27:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 04:27:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 04:27:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 04:27:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 04:27:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 04:28:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 04:28:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 04:28:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 04:28:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 04:28:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 04:28:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 04:29:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 04:29:00 --> Undefined variable $allbooking
+in APPPATH\Views\admin\meeting_room_management.php on line 36.
+ 1 APPPATH\Views\admin\meeting_room_management.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $allbooking', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin/meeting_room_management')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 04:30:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 04:30:37 --> Undefined variable $allroom
+in APPPATH\Views\admin\meeting_room_management.php on line 36.
+ 1 APPPATH\Views\admin\meeting_room_management.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $allroom', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin/meeting_room_management')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 04:30:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 04:30:38 --> Undefined variable $allroom
+in APPPATH\Views\admin\meeting_room_management.php on line 36.
+ 1 APPPATH\Views\admin\meeting_room_management.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $allroom', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin/meeting_room_management')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 04:30:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 04:30:38 --> Undefined variable $allroom
+in APPPATH\Views\admin\meeting_room_management.php on line 36.
+ 1 APPPATH\Views\admin\meeting_room_management.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $allroom', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin/meeting_room_management')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 04:30:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 04:30:39 --> Undefined variable $allroom
+in APPPATH\Views\admin\meeting_room_management.php on line 36.
+ 1 APPPATH\Views\admin\meeting_room_management.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $allroom', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin/meeting_room_management')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 04:30:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 04:30:39 --> Undefined variable $allroom
+in APPPATH\Views\admin\meeting_room_management.php on line 36.
+ 1 APPPATH\Views\admin\meeting_room_management.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $allroom', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin/meeting_room_management')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 04:30:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 04:30:39 --> Undefined variable $allroom
+in APPPATH\Views\admin\meeting_room_management.php on line 36.
+ 1 APPPATH\Views\admin\meeting_room_management.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $allroom', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin/meeting_room_management')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 04:30:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 04:30:39 --> Undefined variable $allroom
+in APPPATH\Views\admin\meeting_room_management.php on line 36.
+ 1 APPPATH\Views\admin\meeting_room_management.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $allroom', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin/meeting_room_management')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 04:30:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 04:30:39 --> Undefined variable $allroom
+in APPPATH\Views\admin\meeting_room_management.php on line 36.
+ 1 APPPATH\Views\admin\meeting_room_management.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $allroom', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin/meeting_room_management')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 04:30:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 04:30:45 --> Undefined variable $allrooms
+in APPPATH\Views\admin\meeting_room_management.php on line 36.
+ 1 APPPATH\Views\admin\meeting_room_management.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $allrooms', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin/meeting_room_management')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 04:30:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 04:30:45 --> Undefined variable $allrooms
+in APPPATH\Views\admin\meeting_room_management.php on line 36.
+ 1 APPPATH\Views\admin\meeting_room_management.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $allrooms', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin/meeting_room_management')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 04:30:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 04:30:45 --> Undefined variable $allrooms
+in APPPATH\Views\admin\meeting_room_management.php on line 36.
+ 1 APPPATH\Views\admin\meeting_room_management.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $allrooms', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin/meeting_room_management')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 04:30:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 04:30:46 --> Undefined variable $allrooms
+in APPPATH\Views\admin\meeting_room_management.php on line 36.
+ 1 APPPATH\Views\admin\meeting_room_management.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $allrooms', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin/meeting_room_management')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 04:30:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 04:30:46 --> Undefined variable $allrooms
+in APPPATH\Views\admin\meeting_room_management.php on line 36.
+ 1 APPPATH\Views\admin\meeting_room_management.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $allrooms', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin/meeting_room_management')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 04:34:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 04:34:07 --> Undefined variable $all_rooms
+in APPPATH\Views\admin\meeting_room_management.php on line 36.
+ 1 APPPATH\Views\admin\meeting_room_management.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $all_rooms', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin/meeting_room_management')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 04:34:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 04:34:07 --> Undefined variable $all_rooms
+in APPPATH\Views\admin\meeting_room_management.php on line 36.
+ 1 APPPATH\Views\admin\meeting_room_management.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $all_rooms', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin/meeting_room_management')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 04:34:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 04:34:08 --> Undefined variable $all_rooms
+in APPPATH\Views\admin\meeting_room_management.php on line 36.
+ 1 APPPATH\Views\admin\meeting_room_management.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $all_rooms', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin/meeting_room_management')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 04:34:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 04:34:08 --> Undefined variable $all_rooms
+in APPPATH\Views\admin\meeting_room_management.php on line 36.
+ 1 APPPATH\Views\admin\meeting_room_management.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $all_rooms', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin/meeting_room_management')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 04:34:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 04:34:08 --> Undefined variable $all_rooms
+in APPPATH\Views\admin\meeting_room_management.php on line 36.
+ 1 APPPATH\Views\admin\meeting_room_management.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $all_rooms', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin/meeting_room_management')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 04:34:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 04:34:08 --> Undefined variable $all_rooms
+in APPPATH\Views\admin\meeting_room_management.php on line 36.
+ 1 APPPATH\Views\admin\meeting_room_management.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $all_rooms', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin/meeting_room_management')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 04:34:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 04:34:44 --> Undefined variable $get_room_data
+in APPPATH\Views\admin\meeting_room_management.php on line 36.
+ 1 APPPATH\Views\admin\meeting_room_management.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $get_room_data', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin/meeting_room_management')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 04:34:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 04:34:45 --> Undefined variable $get_room_data
+in APPPATH\Views\admin\meeting_room_management.php on line 36.
+ 1 APPPATH\Views\admin\meeting_room_management.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $get_room_data', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin/meeting_room_management')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 04:34:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 04:34:45 --> Undefined variable $get_room_data
+in APPPATH\Views\admin\meeting_room_management.php on line 36.
+ 1 APPPATH\Views\admin\meeting_room_management.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $get_room_data', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin/meeting_room_management')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 04:34:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 04:34:45 --> Undefined variable $get_room_data
+in APPPATH\Views\admin\meeting_room_management.php on line 36.
+ 1 APPPATH\Views\admin\meeting_room_management.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $get_room_data', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin/meeting_room_management')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 04:35:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 04:35:10 --> Undefined variable $getAll_rooms
+in APPPATH\Views\admin\meeting_room_management.php on line 36.
+ 1 APPPATH\Views\admin\meeting_room_management.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getAll_rooms', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin/meeting_room_management')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 04:35:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 04:35:11 --> Undefined variable $getAll_rooms
+in APPPATH\Views\admin\meeting_room_management.php on line 36.
+ 1 APPPATH\Views\admin\meeting_room_management.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getAll_rooms', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin/meeting_room_management')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 04:35:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 04:35:11 --> Undefined variable $getAll_rooms
+in APPPATH\Views\admin\meeting_room_management.php on line 36.
+ 1 APPPATH\Views\admin\meeting_room_management.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getAll_rooms', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin/meeting_room_management')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 04:35:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 04:35:11 --> Undefined variable $getAll_rooms
+in APPPATH\Views\admin\meeting_room_management.php on line 36.
+ 1 APPPATH\Views\admin\meeting_room_management.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getAll_rooms', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin/meeting_room_management')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 04:35:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 04:35:11 --> Undefined variable $getAll_rooms
+in APPPATH\Views\admin\meeting_room_management.php on line 36.
+ 1 APPPATH\Views\admin\meeting_room_management.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getAll_rooms', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin/meeting_room_management')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 04:35:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 04:35:12 --> Undefined variable $getAll_rooms
+in APPPATH\Views\admin\meeting_room_management.php on line 36.
+ 1 APPPATH\Views\admin\meeting_room_management.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getAll_rooms', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin/meeting_room_management')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 04:35:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 04:35:12 --> Undefined variable $getAll_rooms
+in APPPATH\Views\admin\meeting_room_management.php on line 36.
+ 1 APPPATH\Views\admin\meeting_room_management.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getAll_rooms', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin/meeting_room_management')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 04:35:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 04:35:12 --> Undefined variable $getAll_rooms
+in APPPATH\Views\admin\meeting_room_management.php on line 36.
+ 1 APPPATH\Views\admin\meeting_room_management.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getAll_rooms', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin/meeting_room_management')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 04:35:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 04:35:12 --> Undefined variable $getAll_rooms
+in APPPATH\Views\admin\meeting_room_management.php on line 36.
+ 1 APPPATH\Views\admin\meeting_room_management.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getAll_rooms', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin/meeting_room_management')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 04:35:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 04:35:12 --> Undefined variable $getAll_rooms
+in APPPATH\Views\admin\meeting_room_management.php on line 36.
+ 1 APPPATH\Views\admin\meeting_room_management.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getAll_rooms', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin/meeting_room_management')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 04:35:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 04:35:13 --> Undefined variable $getAll_rooms
+in APPPATH\Views\admin\meeting_room_management.php on line 36.
+ 1 APPPATH\Views\admin\meeting_room_management.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getAll_rooms', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin/meeting_room_management')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 04:35:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 04:35:13 --> Undefined variable $getAll_rooms
+in APPPATH\Views\admin\meeting_room_management.php on line 36.
+ 1 APPPATH\Views\admin\meeting_room_management.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getAll_rooms', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin/meeting_room_management')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 18:48:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 18:48:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 18:48:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 18:48:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 18:49:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 18:49:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 18:49:06 --> Undefined variable $getAll_rooms
+in APPPATH\Views\admin\meeting_room_management.php on line 36.
+ 1 APPPATH\Views\admin\meeting_room_management.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getAll_rooms', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin/meeting_room_management')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 18:49:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 18:51:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 18:54:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 18:55:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 18:55:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 18:55:17 --> Undefined variable $getAll_rooms
+in APPPATH\Views\admin\meeting_room_management.php on line 36.
+ 1 APPPATH\Views\admin\meeting_room_management.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getAll_rooms', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin/meeting_room_management')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 18:55:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 18:55:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 18:55:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 18:55:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 18:55:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 18:56:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 18:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 18:57:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 18:58:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 19:04:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 19:04:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 19:04:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 19:04:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 19:04:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 19:04:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 19:05:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 19:06:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 19:07:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 19:07:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 19:07:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 19:07:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 19:07:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 19:08:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 19:10:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 19:13:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 19:14:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 19:16:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 19:16:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 19:16:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 19:18:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 19:18:34 --> Undefined variable $getAll_rooms
+in APPPATH\Views\admin\meeting_room_management.php on line 36.
+ 1 APPPATH\Views\admin\meeting_room_management.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getAll_rooms', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin/meeting_room_management')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 19:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 19:19:13 --> Undefined variable $getAll_rooms
+in APPPATH\Views\admin\meeting_room_management.php on line 36.
+ 1 APPPATH\Views\admin\meeting_room_management.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getAll_rooms', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin/meeting_room_management')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 19:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 19:19:13 --> Undefined variable $getAll_rooms
+in APPPATH\Views\admin\meeting_room_management.php on line 36.
+ 1 APPPATH\Views\admin\meeting_room_management.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getAll_rooms', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin/meeting_room_management')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 19:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 19:19:13 --> Undefined variable $getAll_rooms
+in APPPATH\Views\admin\meeting_room_management.php on line 36.
+ 1 APPPATH\Views\admin\meeting_room_management.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getAll_rooms', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin/meeting_room_management')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 19:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 19:19:13 --> Undefined variable $getAll_rooms
+in APPPATH\Views\admin\meeting_room_management.php on line 36.
+ 1 APPPATH\Views\admin\meeting_room_management.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getAll_rooms', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin/meeting_room_management')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 19:19:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 19:19:14 --> Undefined variable $getAll_rooms
+in APPPATH\Views\admin\meeting_room_management.php on line 36.
+ 1 APPPATH\Views\admin\meeting_room_management.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getAll_rooms', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin/meeting_room_management')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 19:19:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 19:19:14 --> Undefined variable $getAll_rooms
+in APPPATH\Views\admin\meeting_room_management.php on line 36.
+ 1 APPPATH\Views\admin\meeting_room_management.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getAll_rooms', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin/meeting_room_management')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 19:19:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 19:19:14 --> Undefined variable $getAll_rooms
+in APPPATH\Views\admin\meeting_room_management.php on line 36.
+ 1 APPPATH\Views\admin\meeting_room_management.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getAll_rooms', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin/meeting_room_management')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 19:19:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 19:19:14 --> Undefined variable $getAll_rooms
+in APPPATH\Views\admin\meeting_room_management.php on line 36.
+ 1 APPPATH\Views\admin\meeting_room_management.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getAll_rooms', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin/meeting_room_management')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 19:19:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 19:19:14 --> Undefined variable $getAll_rooms
+in APPPATH\Views\admin\meeting_room_management.php on line 36.
+ 1 APPPATH\Views\admin\meeting_room_management.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getAll_rooms', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin/meeting_room_management')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 19:19:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 19:19:14 --> Undefined variable $getAll_rooms
+in APPPATH\Views\admin\meeting_room_management.php on line 36.
+ 1 APPPATH\Views\admin\meeting_room_management.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getAll_rooms', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(38): view('admin/meeting_room_management')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 19:24:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 19:24:22 --> Call to undefined method App\Models\BookingModel::getAll_rooms
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Admin.php(39): CodeIgniter\Model->__call('getAll_rooms', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 19:24:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 19:24:23 --> Call to undefined method App\Models\BookingModel::getAll_rooms
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Admin.php(39): CodeIgniter\Model->__call('getAll_rooms', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 19:24:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 19:24:24 --> Call to undefined method App\Models\BookingModel::getAll_rooms
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Admin.php(39): CodeIgniter\Model->__call('getAll_rooms', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 19:24:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 19:24:24 --> Call to undefined method App\Models\BookingModel::getAll_rooms
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Admin.php(39): CodeIgniter\Model->__call('getAll_rooms', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 19:24:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 19:24:24 --> Call to undefined method App\Models\BookingModel::getAll_rooms
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Admin.php(39): CodeIgniter\Model->__call('getAll_rooms', [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 19:25:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 19:25:33 --> Undefined variable $getAll_rooms
+in APPPATH\Views\admin\meeting_room_management.php on line 36.
+ 1 APPPATH\Views\admin\meeting_room_management.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getAll_rooms', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(43): view('admin/meeting_room_management')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 19:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 19:27:08 --> Undefined variable $getAll_rooms
+in APPPATH\Views\admin\meeting_room_management.php on line 36.
+ 1 APPPATH\Views\admin\meeting_room_management.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getAll_rooms', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(43): view('admin/meeting_room_management', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 19:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 19:28:15 --> Undefined variable $getAll_rooms
+in APPPATH\Views\admin\meeting_room_management.php on line 36.
+ 1 APPPATH\Views\admin\meeting_room_management.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getAll_rooms', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(45): view('admin/meeting_room_management', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 19:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 19:28:44 --> Undefined variable $getAll_rooms
+in APPPATH\Views\admin\meeting_room_management.php on line 36.
+ 1 APPPATH\Views\admin\meeting_room_management.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getAll_rooms', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(45): view('admin/meeting_room_management', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 19:29:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 19:29:17 --> Undefined property: stdClass::$USER_ID
+in APPPATH\Views\admin\meeting_room_management.php on line 38.
+ 1 APPPATH\Views\admin\meeting_room_management.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$USER_ID', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(45): view('admin/meeting_room_management', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 19:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 19:32:09 --> Undefined property: stdClass::$LASTNAME
+in APPPATH\Views\admin\meeting_room_management.php on line 39.
+ 1 APPPATH\Views\admin\meeting_room_management.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$LASTNAME', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(45): view('admin/meeting_room_management', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 19:32:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 19:32:32 --> Undefined property: stdClass::$STATUS
+in APPPATH\Views\admin\meeting_room_management.php on line 42.
+ 1 APPPATH\Views\admin\meeting_room_management.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$STATUS', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(45): view('admin/meeting_room_management', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 19:32:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 19:33:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 19:33:20 --> Undefined property: stdClass::$B_ID
+in APPPATH\Views\admin\meeting_room_management.php on line 42.
+ 1 APPPATH\Views\admin\meeting_room_management.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$B_ID', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(45): view('admin/meeting_room_management', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 19:34:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 19:34:33 --> Undefined property: stdClass::$B_ID
+in APPPATH\Views\admin\meeting_room_management.php on line 42.
+ 1 APPPATH\Views\admin\meeting_room_management.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$B_ID', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(45): view('admin/meeting_room_management', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 19:34:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 19:35:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 19:35:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 19:35:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 19:35:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 19:36:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 19:36:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 19:37:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 19:37:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 19:37:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 19:37:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 19:38:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 19:38:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 19:38:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 19:44:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 19:44:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 19:44:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 19:44:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 19:44:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 19:44:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 19:44:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 19:44:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 19:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 19:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 19:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 19:45:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 19:46:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 19:51:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 19:51:16 --> Cannot use object of type stdClass as array
+in APPPATH\Views\admin\meeting_room_management.php on line 45.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 4 APPPATH\Controllers\Admin.php(45): view('admin/meeting_room_management', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 19:52:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 19:53:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 19:55:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 19:55:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 19:55:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 19:56:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 19:58:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 19:59:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:03:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 20:03:08 --> Undefined property: stdClass::$ATTENDANT
+in APPPATH\Views\admin\meeting_room_management.php on line 54.
+ 1 APPPATH\Views\admin\meeting_room_management.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$ATTENDANT', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(45): view('admin/meeting_room_management', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 20:03:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 20:03:40 --> Undefined property: stdClass::$ATTENDANT
+in APPPATH\Views\admin\meeting_room_management.php on line 54.
+ 1 APPPATH\Views\admin\meeting_room_management.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$ATTENDANT', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(45): view('admin/meeting_room_management', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 20:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 20:03:41 --> Undefined property: stdClass::$ATTENDANT
+in APPPATH\Views\admin\meeting_room_management.php on line 54.
+ 1 APPPATH\Views\admin\meeting_room_management.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$ATTENDANT', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(45): view('admin/meeting_room_management', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 20:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 20:03:41 --> Undefined property: stdClass::$ATTENDANT
+in APPPATH\Views\admin\meeting_room_management.php on line 54.
+ 1 APPPATH\Views\admin\meeting_room_management.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$ATTENDANT', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(45): view('admin/meeting_room_management', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 20:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 20:03:41 --> Undefined property: stdClass::$ATTENDANT
+in APPPATH\Views\admin\meeting_room_management.php on line 54.
+ 1 APPPATH\Views\admin\meeting_room_management.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$ATTENDANT', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(45): view('admin/meeting_room_management', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 20:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 20:03:41 --> Undefined property: stdClass::$ATTENDANT
+in APPPATH\Views\admin\meeting_room_management.php on line 54.
+ 1 APPPATH\Views\admin\meeting_room_management.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$ATTENDANT', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(45): view('admin/meeting_room_management', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 20:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 20:03:41 --> Undefined property: stdClass::$ATTENDANT
+in APPPATH\Views\admin\meeting_room_management.php on line 54.
+ 1 APPPATH\Views\admin\meeting_room_management.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$ATTENDANT', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(45): view('admin/meeting_room_management', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 20:04:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 20:04:34 --> Undefined variable $__full_name_byId
+in APPPATH\Views\admin\meeting_room_management.php on line 54.
+ 1 APPPATH\Views\admin\meeting_room_management.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $__full_name_byId', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(45): view('admin/meeting_room_management', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 20:04:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 20:04:35 --> Undefined variable $__full_name_byId
+in APPPATH\Views\admin\meeting_room_management.php on line 54.
+ 1 APPPATH\Views\admin\meeting_room_management.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $__full_name_byId', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(45): view('admin/meeting_room_management', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 20:04:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 20:04:35 --> Undefined variable $__full_name_byId
+in APPPATH\Views\admin\meeting_room_management.php on line 54.
+ 1 APPPATH\Views\admin\meeting_room_management.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $__full_name_byId', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(45): view('admin/meeting_room_management', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 20:04:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 20:04:35 --> Undefined variable $__full_name_byId
+in APPPATH\Views\admin\meeting_room_management.php on line 54.
+ 1 APPPATH\Views\admin\meeting_room_management.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $__full_name_byId', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(45): view('admin/meeting_room_management', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 20:05:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-29 20:05:39 --> Undefined property: stdClass::$ATTENDANT
+in APPPATH\Views\admin\meeting_room_management.php on line 54.
+ 1 APPPATH\Views\admin\meeting_room_management.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$ATTENDANT', 'C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php', 54)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\admin\\meeting_room_management.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/meeting_room_management', [], true)
+ 5 APPPATH\Controllers\Admin.php(45): view('admin/meeting_room_management', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->meeting_room_management()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 20:05:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:06:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:07:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:08:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:08:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:10:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:12:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:12:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:12:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:13:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:14:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:15:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:15:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:15:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:15:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:15:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:15:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:15:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:15:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:15:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:15:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:16:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:16:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:16:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:17:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:18:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:19:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:19:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:20:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:21:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:22:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:22:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:22:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:22:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:22:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:22:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:22:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:22:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:22:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:22:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:22:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:22:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:22:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:22:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:22:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:23:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:23:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:23:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:23:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:23:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:24:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:24:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:24:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:24:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:24:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:24:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:24:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:25:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:31:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:37:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:37:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:37:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:37:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:37:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:40:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:44:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:47:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 20:48:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-29 20:48:03 --> mysqli_sql_exception: Table 'booking_meeting.notification' doesn't exist in C:\xampp\htdocs\Booking_Meeting\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Booking_Meeting\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Booking_Meeting\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Booking_Meeting\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Booking_Meeting\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Booking_Meeting\app\Models\NotificationModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Booking_Meeting\app\Views\layouts\user\header-main.php(16): App\Models\NotificationModel->getAllNoti_byUserId('20')
+#6 C:\xampp\htdocs\Booking_Meeting\system\View\View.php(213): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\Booking_Meeting\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 C:\xampp\htdocs\Booking_Meeting\system\View\View.php(229): CodeIgniter\View\View->render('layouts/user/he...', Array, true)
+#9 C:\xampp\htdocs\Booking_Meeting\system\Common.php(1184): CodeIgniter\View\View->render('index', Array, true)
+#10 C:\xampp\htdocs\Booking_Meeting\app\Controllers\Home.php(10): view('index', Array)
+#11 C:\xampp\htdocs\Booking_Meeting\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#12 C:\xampp\htdocs\Booking_Meeting\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#13 C:\xampp\htdocs\Booking_Meeting\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\Booking_Meeting\index.php(67): CodeIgniter\CodeIgniter->run()
+#15 {main}
+CRITICAL - 2023-06-29 20:48:03 --> Table 'booking_meeting.notification' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `NOTIFICATION`
+WHERE `TO_USER` = \'20\'
+AND `IS_ACTIVE` >= 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `NOTIFICATION`
+WHERE `TO_USER` = \'20\'
+AND `IS_ACTIVE` >= 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `NOTIFICATION`
+WHERE `TO_USER` = \'20\'
+AND `IS_ACTIVE` >= 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `NOTIFICATION`
+WHERE `TO_USER` = :TO_USER:
+AND `IS_ACTIVE` >= :IS_ACTIVE:', [...], false)
+ 5 APPPATH\Models\NotificationModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Views\layouts\user\header-main.php(16): App\Models\NotificationModel->getAllNoti_byUserId('20')
+ 7 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\layouts\\user\\header-main.php')
+ 8 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layouts/user/header-main', [], true)
+10 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+11 APPPATH\Controllers\Home.php(10): view('index', [...])
+12 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+13 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+14 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 22:47:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 22:47:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 22:47:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 22:47:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-29 22:47:18 --> mysqli_sql_exception: Table 'booking_meeting.notification' doesn't exist in C:\xampp\htdocs\Booking_Meeting\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\Booking_Meeting\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Booking_Meeting\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Booking_Meeting\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Booking_Meeting\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Booking_Meeting\app\Models\NotificationModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Booking_Meeting\app\Views\layouts\user\header-main.php(16): App\Models\NotificationModel->getAllNoti_byUserId('20')
+#6 C:\xampp\htdocs\Booking_Meeting\system\View\View.php(213): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\Booking_Meeting\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 C:\xampp\htdocs\Booking_Meeting\system\View\View.php(229): CodeIgniter\View\View->render('layouts/user/he...', Array, true)
+#9 C:\xampp\htdocs\Booking_Meeting\system\Common.php(1184): CodeIgniter\View\View->render('index', Array, true)
+#10 C:\xampp\htdocs\Booking_Meeting\app\Controllers\Home.php(10): view('index', Array)
+#11 C:\xampp\htdocs\Booking_Meeting\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#12 C:\xampp\htdocs\Booking_Meeting\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#13 C:\xampp\htdocs\Booking_Meeting\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\Booking_Meeting\index.php(67): CodeIgniter\CodeIgniter->run()
+#15 {main}
+CRITICAL - 2023-06-29 22:47:18 --> Table 'booking_meeting.notification' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `NOTIFICATION`
+WHERE `TO_USER` = \'20\'
+AND `IS_ACTIVE` >= 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `NOTIFICATION`
+WHERE `TO_USER` = \'20\'
+AND `IS_ACTIVE` >= 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `NOTIFICATION`
+WHERE `TO_USER` = \'20\'
+AND `IS_ACTIVE` >= 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `NOTIFICATION`
+WHERE `TO_USER` = :TO_USER:
+AND `IS_ACTIVE` >= :IS_ACTIVE:', [...], false)
+ 5 APPPATH\Models\NotificationModel.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Views\layouts\user\header-main.php(16): App\Models\NotificationModel->getAllNoti_byUserId('20')
+ 7 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\Booking_Meeting\\app\\Views\\layouts\\user\\header-main.php')
+ 8 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layouts/user/header-main', [], true)
+10 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index', [], true)
+11 APPPATH\Controllers\Home.php(10): view('index', [...])
+12 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+13 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+14 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-29 22:50:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 22:51:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 23:06:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 23:06:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 23:06:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 23:06:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 23:06:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 23:06:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 23:06:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 23:06:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 23:06:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 23:06:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 23:06:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 23:06:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 23:06:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 23:06:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 23:06:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 23:12:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 23:12:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 23:12:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 23:13:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 23:13:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 23:38:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-29 23:53:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
