@@ -1,0 +1,201 @@
+/*  Default Font */
+@import url('https://fonts.googleapis.com/css2?family=Sarabun&display=swap');
+body {
+  font-family: 'Sarabun', sans-serif;
+}
+
+/* Default Navbar */
+#nav-logo {
+  width: 35px;
+  height: 35px;
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+#dropdown-user-navbar.dropdown-toggle::after {
+  content: none;
+}
+
+#dropdown-notification.dropdown-toggle::after {
+  content: none;
+}
+
+/* Notification */
+.notification_list {
+  padding-left: 7px;
+}
+
+/* Pagination */
+ul.pagination li a {
+  border: 2px solid #FFC758;
+  border-radius: 5px;
+  padding: 0px 10px 0px 10px;
+  margin-right: 3px;
+  color: black;
+  text-decoration: none;
+}
+
+ul.pagination li a:hover {
+  background-color: wheat;
+  border: 2px solid #FFC758;
+  border-radius: 7px;
+  padding: 0px 10px 0px 10px;
+  margin-right: 3px;
+  color: black;
+  text-decoration: none;
+}
+
+.active a {
+  background-color: #FFC758;
+}
+
+a.clear-hyperlink {
+  text-decoration: none;
+  color: black;
+}
+
+/* Table */
+table.table-main-primary {
+  background-color: cornflowerblue;
+  width: 100%;
+}
+
+img.img-room {
+  width: fit-content;
+  max-height: 100px;
+}
+
+.btn-roomname {
+  padding: 6px 10px 6px 10px;
+  border-radius: 5px;
+  border: 0px;
+  width: 100%;
+}
+
+.btn-roomname-success {
+  background-color: #3FE769;
+  color: black;
+}
+
+.btn-roomname-warning {
+  background-color: #ffc107;
+  color: black;
+}
+
+.btn-roomname-pink {
+  background-color: #ff71f3;
+  color: black;
+}
+
+.btn-status {
+  padding: 6px 10px 6px 10px;
+  border-radius: 5px;
+  border: 0px;
+  font-weight: bold;
+}
+
+.btn-status-success {
+  background-color: #3FE769;
+  color: black;
+}
+
+.btn-status-warning {
+  background-color: #ffc107;
+  color: black;
+}
+
+.btn-status-danger {
+  background-color: #dc3545;
+  color: black;
+}
+
+a.clear-hyperlink {
+  text-decoration: none;
+  color: black;
+}
+.button1 {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.btn-status-danger {
+  background-color: #dc3545;
+  color: black;
+}
+button.btn-logreg-confirm {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: rgb(35, 160, 52);
+  border: 1px solid transparent;
+  border-radius: 5px;
+  box-shadow: rgb(0 0 0 / 2%) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 16px;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: 0px 20px 0px 20px;
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.main-footer {
+  margin-top: 100px;
+}
+
+/* Custom Full Calendar */
+.fc-pd-default {
+  padding-left: 3px;
+}
+
+.fc-daygrid-dot-event {
+  display: block !important;
+}
+
+/* Tools */
+.mt-6 {
+  margin-top: 4rem;
+}
+
+.mt-7 {
+  margin-top: 6rem;
+}
+
+.my-6 {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.my-7 {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+.my-8 {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+
+.my-9 {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
